@@ -1,0 +1,20 @@
+/* body{
+    background-image: url("img/mathew-macquarrie-Lzx4J_Pb3sk-unsplash.jpg");
+    background:url("img/mathew-macquarrie-Lzx4J_Pb3sk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+
+    background: url("img/mathew-macquarrie-Lzx4J_Pb3sk-unsplash.jpg") no-repeat fixed center center;
+    background-size: 500px;
+} */
+
+
+.fondo{
+    width: 600px;
+    height: 600px;
+    background: url("img/mathew-macquarrie-Lzx4J_Pb3sk-unsplash.jpg") #000;
+    background-repeat: no-repeat;
+    background-size:50%;
+}
