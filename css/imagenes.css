@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: #000500;
+}
+
+.galeria {
+    width: 100%;
+}
+
+.galeria img {
+    vertical-align: top;
+    /* recomendacion: poner solo el ancho a las imagenes */
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #484848;
+    opacity: .5;
+}
+
+.galeria img:hover {
+    opacity: 1;
+    border-color:#fff;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
