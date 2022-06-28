@@ -1,0 +1,28 @@
+.texto {
+    /* text-shadow: 2px 3px 10px #000; */
+
+    /* 1. Valor sombra de arriba hacia abajo
+    2. Valor sombra de izquierda a derecha
+    3. Tamaño de la sombra */
+    color: #fff;
+               /* 1   2   3 */
+    text-shadow: 2px 0px 10px blue;
+}
+
+/* .texto:hover{
+    color: #fff;
+    text-shadow: 2px 0px 10px blue;
+} */
+
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #f79256;
+    box-shadow: 0px 5px 10px rgba(0,0,0, 0.5);
+}
+
+
+/* .caja:hover {
+    box-shadow:  0px 5px 3px rgba(0,0,0, 0.5);
+} */

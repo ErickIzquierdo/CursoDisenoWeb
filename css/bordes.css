@@ -1,0 +1,63 @@
+div {
+    background: #226dc1;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.caja1 {
+    border: 7px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 20px;
+}
+
+.caja2 {
+    border: 7px;
+    border-style: dotted;
+    border-color: #000;
+    /*
+    1. Borde superior izquierdo
+    2. Borde superior derecho
+    3. Borde inferior derecho
+    4. Borde inferior izquierdo
+    */
+                 /*1  2    3    4*/
+    border-radius: 0 10px 30px 50px;
+
+}
+
+.caja3 {
+    border: 7px;
+    border-style: dashed;
+    border-color: #000;
+    border-radius: 0 10px 0 10px;
+}
+.caja4 {
+    border: 7px;
+    border-style: double;
+    border-color: #000;
+
+    /*
+    Si la caja es cuadrada (mismo ancho y alto) y le damos un
+    border-radios del 100% se convertira en un circulo
+    */
+    border-radius: 100%;
+
+    /* border: 7px;
+    border-style: groove;
+    border-color: #000; */
+
+    /* border: 7px;
+    border-style: ridge;
+    border-color: #000; */
+
+    /* border: 7px;
+    border-style: inset;
+    border-color: #000; */
+
+    /* border: 7px;
+    border-style: outset;
+    border-color: #000; */
+}
