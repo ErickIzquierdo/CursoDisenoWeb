@@ -1,0 +1,64 @@
+@keyframes colores {
+    /* from{
+        background: #9eb3c2;
+    }to{
+        background: #21295c;
+    } */
+
+    0%{background: #9eb3c2;}
+    25%{background: #1c7293; width: 300px;}
+    50%{background: #065A82; width: 400px;}
+    75%{background: #1B3B6F; width: 300px;}
+    100%{background: #9eb3c2; width: 200px;}
+
+}
+
+
+@keyframes movimiento {
+
+    /* 0%{box-shadow: 0 5px 15px 0 rgba(0,0,0,0.6); transform: translatey(0px);}
+    50%{box-shadow: 0 25px 15px 0 rgba(0,0,0,0.2); transform: translatey(-20px);}
+    100%{box-shadow: 0 5px 15px 0 rgba(0,0,0,0.6); transform: translatey(0px);} */
+ 
+    0%{transform: translate(0);}
+    50%{transform: translate(500px);}
+    100%{transform: translate(0);}
+
+    /* from {transform: translate(0px);}
+    to {transform: translate(500px);} */ 
+
+    
+}
+
+/* .caja img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    position: relative;
+    top: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border-style: outset;
+    animation: movimiento 6s ease-in-out infinite;
+    
+} */
+
+
+.caja{
+    width: 200px;
+    height: 200px;
+    /* border-radius: 100%; */
+    /* box-shadow: 0 0 30px #000; */
+    /* border-style: ridge; */
+    background: #9eb3c2;
+    /* position: relative;
+    top: 400px; */
+
+    /* margin: 0 auto; */
+    
+
+    /* animation-name:movimiento ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+    animation: movimiento 10s infinite ease;
+}
